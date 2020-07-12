@@ -16,8 +16,11 @@
         height: 50px;
         padding: 7px;
     }
+    .container .search-bar .select-option{
+        width:65%;
+    }
     .container .search-bar .button-cari {
-        width: 28%;
+        width: 30%;
         font-size: 10px;
         padding: 2px 5px 2px 5px;
     }
