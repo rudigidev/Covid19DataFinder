@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri light;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/src/img/covidbig.jpeg);
+    background-size: cover;
+}
+
+header .container {
+    width: 100%;
+    height: 60px;
+    padding: 10px 0px 0px 20px;
+    background-color: rgb(209, 5, 5);
+    color: whitesmoke;
+}
+.container {
+    width: 100%;
+    padding: 10%;
+}
+/* Main */
+.container .search-bar {
+    /* border: 1px solid black; */
+    height:65px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: -10px;
+    padding: 12px;
+    box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.7);
+}
+.container .search-bar .select-option {
+    width: 70%;
+    height: 30px;
+}
+.container .search-bar .button-cari {
+    width: 25%;
+    color: white;
+    background-color: rgb(209, 5, 5);
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    transition: 0.7ms;
+}
+.container .search-bar .button-cari:hover {
+    background-color: rgb(253, 5, 5);
+}
+.container .search-bar .button-cari:active {
+    background-color: rgb(248, 104, 104);
+}
+.country-container {
+    text-align: center;
+    padding: 10px;
+    margin-top: -20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(209, 5, 5);
+    /* border-bottom: 2px solid rgb(209, 5, 5); */
+    /* border-top: 2px solid gray; */
+}
+.container-list-data {
+    width: 30%;
+    padding:2%;
+    margin-left: 2%;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 700;
+    box-shadow: 1px 0px 5px 1px rgba(119, 118, 118, 0.7);
+}
+#positif {
+    background-color: #ff9800;
+    /* border: 3px solid #ff9800;
+    color: #ff9800; */
+}
+#sembuh {
+    background-color: #4CAF50;
+    /* border: 3px solid #4CAF50;
+    color: #4CAF50; */
+}
+#meninggal {
+    background-color: #f44336;
+    /* border: 3px solid #f44336;
+    color: #f44336; */
+}
+.container-list-data .angka{
+    font-size: 90px;
+}
+
+/* footer */
+.container-footer{
+    /* background-color: rgb(209, 5, 5); */
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+    padding: 5px;
+}
