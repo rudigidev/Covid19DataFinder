@@ -16,6 +16,10 @@
         height: 50px;
         padding: 7px;
     }
+     main .container{
+        width: 100%;
+        margin: 5%;
+    }
     .container .search-bar .button-cari {
         width: auto;
         font-size: 12px;
