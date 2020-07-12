@@ -16,13 +16,9 @@
         height: 50px;
         padding: 7px;
     }
-     main .container{
-        width: 120%;
-        margin: 5%;
-    }
     .container .search-bar .button-cari {
-        width: auto;
-        font-size: 12px;
+        width: 25%;
+        font-size: 10px;
         padding: 2px 5px 2px 5px;
     }
     .container-list-data {
